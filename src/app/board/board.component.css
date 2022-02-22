@@ -1,10 +1,14 @@
 main {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 100px 100px 100px;
   gap: 0;
 }
 
 app-square {
   border: 1px solid gray;
-  height: 200px;
+  height: 100px;
+}
+
+button + main {
+  margin-top: 1.2rem;
 }
