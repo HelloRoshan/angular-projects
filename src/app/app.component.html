@@ -1,10 +1,13 @@
 <nb-layout>
 
   <nb-layout-header fixed>
-    <h1>Tic Tac Toe</h1>
+    <nav>
+      <a routerLink="/tictactoe" routerLinkActive="active">Tic-Tac-Toe</a>
+    </nav>
   </nb-layout-header>
 
   <nb-layout-column>
-    <app-board></app-board>
+    <router-outlet></router-outlet>
   </nb-layout-column>
+  
 </nb-layout>
